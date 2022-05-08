@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Invoice creator</h1>
+      <p>Thanks for choosing GoodCorp, LLC!</p>
+    </header>
+    <main>
+      <div class="main-container">
+        <div class="wrapper-button">
+          <button class="item-button">Wash Car: $10</button>
+          <button class="item-button">Mow Lawn: $20</button>
+          <button class="item-button">Pull Weeds: $30</button>
+        </div>
+        <div class="details">
+          <p class="small-font justified"><span>TASK</span><span>TOTAL</span></p>
+          <div id="item-container">
+            <!--            <p class="justified"><span>TASK</span><span>TOTAL</span></p> -->
+          </div>
+          <hr>
+          <p class="small-font justified"><span>NOTES</span><span>TOTAL AMOUNT</span></p>
+          <p class="small-font justified"><span>We accept cash, credit card, or PayPal</span><span
+              id="total">TOTAL</span></p>
+        </div>
+        <button class="send-button" onclick="location.reload()">Send invoice</button>
+      </div>
+
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
